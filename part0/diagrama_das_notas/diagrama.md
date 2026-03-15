@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant user
     participant browser
@@ -36,3 +37,4 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: O navegador executa a função callback que renderiza as notas (incluindo a nova)
+```
